@@ -81,7 +81,15 @@ export const createCustomDefinition = async (data) => {
 export const getDashboardInfo = async () => {
     return {
         username: "DemoUser",
-        weather: { temp: 25, status: "Sonne" },
-        moon: { phase: "Vollmond" },
+        weather: {
+            status: "Sonne",           // für {weather.status}
+            emoji: "☀️",               // für {weather.emoji}
+            temperature: 25            // für {weather.temperature}
+        },
+        moon: {
+            phase: "Vollmond",         // für {moon.phase}
+            emoji: "🌕"                 // für {moon.emoji}
+        },
     };
 };
+
