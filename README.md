@@ -1,12 +1,43 @@
-# React + Vite
+# DailyTracker DEMO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Dies ist die öffentliche Demo-Variante meiner App [DailyTracker](https://github.com/yowhatup999/DailyTracker).**
 
-Currently, two official plugins are available:
+- Frontend: React (Vite, Tailwind)
+- Auth & Daten: Nur Mock/DEMO (keine echten User-Daten, kein Backend)
+- Deployment: GitHub Pages  
+  👉 [Hier live testen](https://yowhatup999.github.io/dailytracker-demo/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Warum dieses Repo?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ich zeige hier mein Frontend & UI/UX – komplett als Demo, ohne echte Anmeldung, ohne Datenbank.  
+Das Hauptprojekt (inkl. Backend, JWT Auth, echte Datenbank-Anbindung etc.) findest du hier:  
+➡️ [yowhatup999/DailyTracker](https://github.com/yowhatup999/DailyTracker)
+
+---
+
+## Für Bewerbungen
+
+**Dieses Repository ist rein als Showcase für Bewerbungen gedacht.**  
+Der Code & das UI stammen aus meiner täglichen Entwicklungsarbeit.  
+**Der Login, API-Calls und Datenspeicherung sind im DEMO-Modus deaktiviert.**
+
+---
+
+## Tech Stack
+
+- React (mit Hooks, Context)
+- TailwindCSS
+- Vite
+- GitHub Pages Deployment
+
+---
+
+## Hinweis
+
+**Bitte keine echten Nutzerdaten eingeben – alles läuft rein im Frontend und ist als Demo gebaut.**
+
+---
+
+**© 2025 yowhatup999**  
