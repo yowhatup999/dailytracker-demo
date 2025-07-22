@@ -2,14 +2,8 @@
 import { useEffect, useState } from "react";
 
 export default function useAuth() {
-    const [isReady, setIsReady] = useState(false);
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-    useEffect(() => {
-        const token = localStorage.getItem("dailytracker_token");
-        setIsLoggedIn(!!token);
-        setIsReady(true);
-    }, []);
+    const [isReady, setIsReady] = useState(true);
+    const [isLoggedIn, setIsLoggedIn] = useState(true);
 
     return { isReady, isLoggedIn };
 }
