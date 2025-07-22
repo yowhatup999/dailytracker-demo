@@ -1,3 +1,3 @@
 export default {
-    base: '/dailytracker-demo/',
+    base: process.env.NODE_ENV === 'production' ? '/dailytracker-demo/' : '/',
 }

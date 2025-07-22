@@ -11,7 +11,6 @@ import Settings from './pages/Settings.jsx';
 import Profile from './pages/Profile.jsx';
 import Logout from './pages/Logout.jsx';
 import RootRedirect from './pages/RootRedirect.jsx';
-import RequireAuth from "./features/auth/RequireAuth.jsx";
 import AddEntry from "./pages/AddEntry.jsx";
 import AuthLayout from './layouts/AuthLayout.jsx';
 
@@ -37,14 +36,9 @@ const router = createBrowserRouter([
         children: [
             { path: '/', element: <RootRedirect /> },
             { path: '/dashboard', element: <Dashboard /> },
-            {
-                element: <RequireAuth />,
-                children: [
-                    { path: '/settings', element: <Settings /> },
-                    { path: '/profile', element: <Profile /> },
-                    { path: '/add-entry', element: <AddEntry /> },
-                ],
-            },
+            { path: '/settings', element: <Settings /> },
+            { path: '/profile', element: <Profile /> },
+            { path: '/add-entry', element: <AddEntry /> },
             { path: '/logout', element: <Logout /> },
         ],
     },
